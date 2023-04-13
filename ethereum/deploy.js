@@ -3,10 +3,10 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  // remember to change this to your own Monomic!
-  "impulse ......................................",
+  // remember to change this to your own 12-word mnemonic phrase!
+  "",
   // remember to change this to your own infura endpoint!
-  "https://sepolia.infura.io/........................."
+  ""
 );
 const web3 = new Web3(provider);
 
